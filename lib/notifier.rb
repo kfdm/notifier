@@ -5,6 +5,7 @@ module Notifier
   autoload :Knotify,    "notifier/knotify"
   autoload :Kdialog,    "notifier/kdialog"
   autoload :NotifySend, "notifier/notify_send"
+  autoload :Prowl,      "notifier/prowl"
   autoload :Placebo,    "notifier/placebo"
   autoload :Version,    "notifier/version"
 
